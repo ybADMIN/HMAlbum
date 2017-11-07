@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/hm_black"
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:tools="http://schemas.android.com/tools"
+    >
+        <com.yb.hmalbumlib.ui.widget.HM_HackyViewPager
+            android:id="@+id/photo_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+ <include android:id="@+id/toolbar_layout" layout="@layout/hm_base_toolbar_layout"/>
+    <RelativeLayout
+        android:id="@+id/photo_view_rl_bottom_content"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:alpha="0.9"
+        android:background="@color/hm_def_actionBar_Background"
+        >
+        <TextView
+            android:id="@+id/photo_view_tv_indicator"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            tools:text="20/99"
+            android:textColor="@color/hm_white"
+            />
+    <CheckBox
+        android:id="@+id/photo_view_cb"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        style="@style/HM_AppTheme.CheckBox_Album"
+        android:drawablePadding="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="@dimen/textsize_16sp"
+        android:textColor="@color/hm_white"
+        />
+    </RelativeLayout>
+</FrameLayout>

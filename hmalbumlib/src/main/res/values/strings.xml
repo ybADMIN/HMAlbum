@@ -1,0 +1,7 @@
+<resources>
+    <string name="hm_app_name">HMAlbumlib</string>
+    <string name="hm_max_chooseimage">最多选择%s张照片</string>
+    <string name="hm_button_allow">允许</string>
+    <string name="hm_button_deny">拒绝</string>
+    <string name="hm_actionbar_back">返回</string>
+</resources>

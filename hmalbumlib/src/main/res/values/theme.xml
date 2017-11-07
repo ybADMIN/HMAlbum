@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--activity默认主题 没有Actionbar-->
+    <style name="HM_AppBaseTheme" parent="HM_AppTheme.Base">
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:buttonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/hm_window_background</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="toolbarStyle">@style/HM_AppBaseTheme.Toolbar</item>
+    </style>
+    <style name="HM_AppBaseTheme.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item><!-- 设置该属性解决空白部分-->
+    </style>
+    <style name="HM_AppBaseTheme.PhotoSee">
+        <item name="android:windowEnableSplitTouch">true</item>
+        <item name="android:splitMotionEvents">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/hm_black</item>
+    </style>
+    <!--对话框主题-->
+    <style name="HM_AppBaseTheme.DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+    </style>
+</resources>

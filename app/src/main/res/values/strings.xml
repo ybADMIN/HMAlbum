@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HMAlbum</string>
+    <string name="rationale_camera_write_read">需要相机访问权限，和文件读写权限</string>
+    <string name="returned_from_app_settings_to_activity">设置返回</string>
+</resources>

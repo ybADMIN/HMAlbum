@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //字体大小
+    <dimen name="textsize_18sp">18sp</dimen> //少数标题
+    <dimen name="textsize_16sp">16sp</dimen>//蓝色白色用户名
+    <dimen name="textsize_15sp">15sp</dimen>//可点击模块
+    <dimen name="textsize_14sp">14sp</dimen> //标准字体
+    <dimen name="textsize_12sp">12sp</dimen>//辅助文字
+    <dimen name="textsize_11sp">11sp</dimen>//辅助文职（地点，标签）
+    <dimen name="textsize_19sp">19sp</dimen>//注册界面引导文字大小
+    <dimen name="textsize_13sp">13sp</dimen>//用户标签（老乡二度校友等）
+    <dimen name="textsize_9sp">9sp</dimen>//时间坐标底部标签等
+</resources>

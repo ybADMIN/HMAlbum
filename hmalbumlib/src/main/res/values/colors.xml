@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hm_colorPrimary">@color/hm_def_actionBar_Background</color>
+    <color name="hm_colorPrimaryDark">#FF2A2D2E</color>
+    <color name="hm_colorAccent">#3ddeb4</color>
+
+
+    <color name="hm_overlay">#AA1C1C1C</color>
+    <color name="hm_window_background">#f0f4f7</color>//activity背景色
+    <color name="hm_album_bg_item_img">#FF2A2D2E</color>//activity背景色
+
+    <color name="hm_line_buttom_B7C8CF">#b7c8cf</color>//分割线颜色，浅色
+    <color name="hm_line_buttom_514F52">#514F52</color>//分割线颜色，浅色
+    <color name="hm_text_hint">#8D999E</color>
+    <color name="hm_text_black">#ff000000</color>
+    <color name="hm_itme_layout_bg_pressed">#dfdfdf</color>
+    <color name="hm_itme_layout_bg_normal">#ffffffff</color>
+    <color name="hm_def_actionBar_Background">#34383A</color>
+    <color name="hm_def_actionBar_liftTextColor">#3ddeb4</color>
+    <color name="hm_black">#ff000000</color>
+    <color name="hm_white">#ffffffff</color>
+    <color name="hm_green_3DDEB4">#3ddeb4</color>
+</resources>

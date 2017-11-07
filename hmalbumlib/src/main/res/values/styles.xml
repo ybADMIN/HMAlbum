@@ -1,0 +1,19 @@
+<resources>
+    <style name="HM_AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/hm_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/hm_colorPrimaryDark</item>
+        <item name="colorAccent">@color/hm_colorAccent</item>
+        <item name="actionBarSize">48dp</item>
+    </style>
+
+    <style name="HM_AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="HM_AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- Base application theme. -->
+    <style name="HM_AppTheme.CheckBox_Normal" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/hm_default_checkbox_selecter</item>
+    </style>
+    <style name="HM_AppTheme.CheckBox_Album" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/hm_album_checkbox_selecter</item>
+    </style>
+</resources>
